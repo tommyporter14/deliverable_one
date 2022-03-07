@@ -32,18 +32,18 @@ public class DeliverableOne {//main method, auto wrote when I made file
 					exclamationCount++;
 			}
 			if (upperCount >= NUMUPPERLETTERS && lowerCount >= NUMLOWERLETTERS && passLen >= 7 && passLen <=12 && exclamationCount >= EXCLAMATION)//checks if pass is valid
-				System.out.println("Password is valid");
+				System.out.println("Password is valid and accepted");
 			else {//if not valid it says what is wrong
 				if (upperCount < NUMUPPERLETTERS)
-					System.out.println("Needs at least one upper case letter");
+					System.out.println("Error: needs at least one upper case letter");
 				if (lowerCount < NUMLOWERLETTERS)
-					System.out.println("Needs at least one lower case letter");
+					System.out.println("Error: needs at least one lower case letter");
 				if (passLen < 7)
-					System.out.println("Needs to be at least 7 characters");
+					System.out.println("Error: needs to be at least 7 characters");
 				if (passLen > 12)
-					System.out.println("Needs to be 12 or less characters");
+					System.out.println("Error: needs to be 12 or less characters");
 				if (exclamationCount < EXCLAMATION)
-					System.out.println("Needs at least one '!'");
+					System.out.println("Error: needs at least one '!'");
 			}
 		
 			scnr.close();//scanner close
