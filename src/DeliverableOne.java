@@ -8,7 +8,7 @@ public class DeliverableOne {//main method, auto wrote when I made file
 			int upperCount = 0;// counter for upper
 			int lowerCount = 0;//counter for lower
 			int exclamationCount = 0;//counter for !
-			//counter for exclamation points
+			
 			Scanner scnr = new Scanner(System.in);//assigning scnr as user input
 			
 			System.out.println("Please enter a valid password that meets the following requirements: "
